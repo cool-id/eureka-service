@@ -1,0 +1,11 @@
+steps:
+  - name: maven:3.6.0-jdk-11-slim
+    entrypoint: 'mvn'
+    args: ['clean', 'install']
+#artifacts:
+#  mavenArtifacts:
+#  - repository: 'https://maven.pkg.dev/eureka-service'
+#    path: 'target/eureka-service-0.0.1-SNAPSHOT.jar'
+#    artifact_id: 'service-registration-and-discovery-service'
+#    group_id: 'com.example'
+#    version: '0.0.1-SNAPSHOT'
